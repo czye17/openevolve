@@ -1,0 +1,9 @@
+python3 openevolve-run.py examples/circle_packing/initial_program.py \
+  examples/circle_packing/evaluator.py \
+  --config examples/circle_packing/config_phase_1.yaml \
+  --iterations 100
+
+python3 openevolve-run.py examples/circle_packing/initial_program.py \
+  examples/circle_packing/evaluator.py \
+  --config examples/circle_packing/config_phase_2.yaml \
+  --iterations 100
